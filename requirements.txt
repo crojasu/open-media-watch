@@ -1,0 +1,26 @@
+# Web framework
+fastapi==0.141.1
+uvicorn[standard]==0.50.0
+starlette==1.6.0
+python-multipart==0.0.32
+
+# Database
+sqlalchemy==2.0.51
+psycopg2-binary==2.9.12
+alembic==1.18.5
+
+# Data fetching / scheduling
+requests==2.34.2
+python-dotenv==1.2.2
+apscheduler==3.11.3
+googlenewsdecoder==0.1.7
+httpx==0.28.1
+
+# Validation
+pydantic==2.13.4
+email-validator==2.3.0
+
+# LLM providers (cascade: Anthropic -> DeepSeek / Qwen via OpenAI-compatible API -> OpenAI; optional Gemini triage)
+anthropic==0.116.0
+openai==2.44.0
+google-genai==2.10.0

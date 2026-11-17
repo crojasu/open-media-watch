@@ -1,0 +1,32 @@
+# Secrets and local config
+.env
+*.env
+!.env.example
+settings.yaml
+gcp_credentials.json
+*.pem
+*.key
+
+# Data
+data/
+*.db
+*.sqlite
+*.sql
+*.dump
+*.csv
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local tooling state
+.omc/
+.claude/

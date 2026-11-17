@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+settings.yaml
+.git/
+.DS_Store
+*.pyc
+__pycache__/
+data/
+tests/

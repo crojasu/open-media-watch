@@ -1,0 +1,40 @@
+{
+  "_comment": "EXAMPLE source and keyword configuration with placeholder terms. Replace the terms with your own monitoring topic. Country codes are internal codes; 'UK' is also the code used by the Guardian client.",
+  "search_terms": {
+    "UK": {
+      "modern": ["example keyword one", "example phrase two"],
+      "historical": ["example older term"],
+      "violence": [],
+      "neutral": ["example broad phrase"],
+      "geo_suffix": "UK"
+    },
+    "ES": {
+      "modern": ["palabra clave de ejemplo"],
+      "historical": [],
+      "violence": [],
+      "neutral": [],
+      "geo_suffix": "España"
+    }
+  },
+  "countries": {
+    "UK": {
+      "name": "United Kingdom",
+      "languages": ["en"],
+      "rss_feeds": {
+        "BBC News (example query)": "https://news.google.com/rss/search?q=example+keyword+one+site:bbc.co.uk+when:7d&hl=en&gl=GB&ceid=GB:en",
+        "Google News UK (example query)": "https://news.google.com/rss/search?q=example+keyword+one+when:7d&hl=en&gl=GB&ceid=GB:en"
+      },
+      "gdelt_domains": ["bbc.co.uk"],
+      "national_domains": ["uk", "bbc.com"]
+    },
+    "ES": {
+      "name": "Spain",
+      "languages": ["es"],
+      "rss_feeds": {
+        "Google News ES (example query)": "https://news.google.com/rss/search?q=palabra+clave+when:7d&hl=es&gl=ES&ceid=ES:es"
+      },
+      "gdelt_domains": ["elpais.com"],
+      "national_domains": ["es", "elpais.com"]
+    }
+  }
+}

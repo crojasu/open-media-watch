@@ -1,0 +1,35 @@
+{
+  "_comment": "EXAMPLE taxonomy with invented, neutral categories. Replace with the categories of your own monitoring topic. The engine only needs: positive types, one negative type, and two secondary axes.",
+  "negative": {"id": "not_relevant", "label": "Not relevant", "label_en": "Not relevant", "color": "#6b7280"},
+  "types": [
+    {"id": "category_a", "label": "Category A", "label_en": "Category A", "color": "#b91c1c", "emoji": "A", "non_fatal": false},
+    {"id": "category_b", "label": "Category B", "label_en": "Category B", "color": "#c2410c", "emoji": "B", "non_fatal": false},
+    {"id": "category_c", "label": "Category C", "label_en": "Category C", "color": "#6d28d9", "emoji": "C", "non_fatal": false},
+    {"id": "category_d", "label": "Category D (secondary)", "label_en": "Category D (secondary)", "color": "#b45309", "emoji": "D", "non_fatal": true}
+  ],
+  "relacion": {
+    "default": "unknown",
+    "not_applicable": "not_applicable",
+    "values": [
+      {"id": "type_1", "label": "Relation 1"},
+      {"id": "type_2", "label": "Relation 2"},
+      {"id": "unknown", "label": "Unknown"},
+      {"id": "not_applicable", "label": "Not applicable"}
+    ]
+  },
+  "motivo": {
+    "default": "unknown",
+    "not_applicable": "not_applicable",
+    "values": [
+      {"id": "context_1", "label": "Context 1"},
+      {"id": "context_2", "label": "Context 2"},
+      {"id": "unknown", "label": "Unknown"},
+      {"id": "not_applicable", "label": "Not applicable"}
+    ]
+  },
+  "recheck_regexes": [],
+  "prompts": {
+    "classifier": "prompts/classifier.example.txt",
+    "triage": "prompts/triage.example.txt"
+  }
+}
