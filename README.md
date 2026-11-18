@@ -82,4 +82,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
 ## License
 
-GNU Affero General Public License v3.0, see [LICENSE](LICENSE).
+GNU Affero General Public License v3.0, see [LICENSE](LICENSE). Copyright (C) 2026 Catalina Rojas Ugarte (see [NOTICE](NOTICE)).
